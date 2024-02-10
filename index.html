@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lewis Wege">
+    <meta name="description" content="First step of learning HTML">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="download (1).png" type="image/x-icon`">
+</head>
+
+<body>
+    <header>
+        <h1>My Goals For the year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="#html">Learning HTML</a></li>
+                <li><a href="#vacation">Planning a vacation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="html">
+            <h2>Im ready to learn HTML</h2>
+            <p>This is my first web page</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="images/html5-3384014_640.webp" alt="HTML5 logo" title="I'm learning html 5" width="300" height="300">
+
+                <figure>
+                    <figcaption>
+                        An example of html5 code
+                    </figcaption>
+                    <p>
+                        <code>
+                            &lt;h1&gt;Hello World!&lt;/h1&gt;
+                        </code>
+                    </p>
+                </figure>
+            </section>
+
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li>....I learn more about web dev</li>
+                    <li>....I plan out my schedule</li>
+                    <li>....I use resources from <abbr title="Mozilla Developer Network">
+                        <a href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary></summary>
+                    </details>
+                </aside>
+            </section>
+        </article>
+
+        <hr>
+        
+        <article id="vacation">
+            <h2>I'm also planning a vaccation</h2>
+            <p>I've been working hard and <em>really need a getaway</em></p>
+            <p>I live in <abbr title="Nairobi">NBO</abbr> so I want to visit a beach</p>
+
+            <hr>
+
+            <h3>Places i'd like to visit</h3>
+            <ul>
+                <li>
+                    <p>I've heard good things about the Caribbean.</p>
+                    <figure>
+                        <img src="images/caribbean.jpg" alt="Caribbean beach" title="I want to visit the Caribbean beach" width="500" height="300" loading="lazy">
+                        <figcaption>
+                            Caribbean beach getaway
+                        </figcaption>
+                    </figure>
+                    
+                </li>
+
+                <li>
+                    <p>I've heard good things about going here:</p>
+                    <address>
+                        Margritaville Island Reserve Riviera Cancun.<br>
+                        Bahia Petempich Puerto Morelos, Mexico.<br>
+                        Colonia Morelos, mexiico 77580
+                    </address>
+                    <figure>
+                        <img src="images/beach.jpg" alt="Cancun Vacation" title="Its 5 o'clock Somewhere!" width="500" height="339" loading="lazy">
+                        <figcaption>
+                            A caribbean vacation Image.
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+            <h3>Places I want to avoid</h3>
+            <!--Unordered lists
+                Ordered lists and
+                Description lists: used in online dictionaries, display features of products, metadata and information presentation-->
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I here this is <strong>cold</strong></dd>
+
+                <dt>South Pole</dt>
+                <dd>This is also cold</dd>
+
+                <dt>Mountain Tops</dt>
+                <dd>This are also cold</dd>
+            </dl>
+        </article>
+    </main>
+    <hr>
+
+    <footer>
+        <p>&copy;<a href="about.html">lewiswege</a></p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+
+</body>
+</html>
